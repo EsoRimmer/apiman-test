@@ -32,6 +32,9 @@ public class DeployedServices {
     public static final String RESPONSE_REST_ROOT = REST_ROOT + "/response";
     public static final String REWRITING_REST_ROOT = REST_ROOT + "/url_rewriting";
 
+    public static final String SEND_STATUS_CODE = RESPONSE_REST_ROOT + "/send_status_code";
+    public static final String WAIT = RESPONSE_REST_ROOT + "/wait";
+
     public static final String JSON_DATA = RESPONSE_REST_ROOT + "/json";
     public static final String XML_DATA = RESPONSE_REST_ROOT + "/xml";
     public static final String URL_REWRITING_DATA = REWRITING_REST_ROOT + "/get_data_to_rewrite";
